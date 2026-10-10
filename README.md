@@ -45,5 +45,5 @@ Do not commit game files, DLC, personal saves, logs with personal data, or telem
 
 ## Licensing status
 
-No project license has been selected yet. Before public release, the application source and HOI4 mod content need separate license decisions. Paradox's User Agreement permits public UGC such as mods for non-commercial purposes and requires it to be free and made from material the creator may use. A non-commercial restriction on the application source would make it source-available rather than OSI Open Source; see [SOURCES.md](SOURCES.md).
+The repository is public, but no project license has been selected. Public availability does not grant permission to reuse, modify, or redistribute the code. The application source and HOI4 mod content need separate license decisions. Paradox's User Agreement permits public UGC such as mods for non-commercial purposes and requires it to be free and made from material the creator may use. A non-commercial restriction on the application source would make it source-available rather than OSI Open Source; see [SOURCES.md](SOURCES.md).
 
