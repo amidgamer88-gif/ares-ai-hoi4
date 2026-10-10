@@ -1,0 +1,11 @@
+{
+  "country": "GER",
+  "date": "1939.09.01",
+  "at_war": true,
+  "factories": {"military": 35, "civilian": 28, "dockyards": 5},
+  "stockpile_days": {"infantry_equipment": 12, "artillery_equipment": 4, "support_equipment": 28, "trucks": 50},
+  "manpower": 850000,
+  "stability": 0.62,
+  "air_superiority": 0.48,
+  "notes": "Example only; replace with observations from your campaign."
+}

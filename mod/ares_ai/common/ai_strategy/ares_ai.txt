@@ -1,0 +1,51 @@
+# ARES AI MVP — adaptive production weights.
+# Strategy triggers are checked by the HOI4 AI. This does not issue unit orders.
+
+ARES_economy_adaptive = {
+	allowed = {
+		is_ai = yes
+	}
+	enable = {
+		NOT = { has_war = yes }
+	}
+	abort = {
+		has_war = yes
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry_equipment
+		value = 15
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = support_equipment
+		value = 10
+	}
+}
+
+ARES_wartime_adaptive = {
+	allowed = {
+		is_ai = yes
+	}
+	enable = {
+		has_war = yes
+	}
+	abort = {
+		NOT = { has_war = yes }
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry_equipment
+		value = 35
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery_equipment
+		value = 20
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = support_equipment
+		value = 15
+	}
+}

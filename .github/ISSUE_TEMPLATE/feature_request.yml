@@ -1,0 +1,22 @@
+name: Feature request
+description: Suggest an improvement to ARES.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: test
+    attributes:
+      label: How could it be tested?
+

@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.log
+*.hoi4
+!desktop_app/fixtures/minimal_text_save.hoi4
+*.jsonl
+desktop_app/dist/
+desktop_app/build/
+desktop_app/*.spec
+desktop_app/.venv/
+bridge/data/
+community/data/
+*.sqlite3
+ARES_AI_Prototype.zip

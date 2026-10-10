@@ -1,0 +1,37 @@
+name: Bug report
+description: Report a reproducible Companion, Bridge, or mod problem.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: game-version
+    attributes:
+      label: HOI4 version
+      placeholder: "1.19.3"
+    validations:
+      required: true
+  - type: input
+    id: component
+    attributes:
+      label: Component
+      placeholder: "Mod / Companion / Bridge"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log lines
+      description: Remove usernames and local paths. Do not attach campaign saves, game files, DLC, or private data.
+

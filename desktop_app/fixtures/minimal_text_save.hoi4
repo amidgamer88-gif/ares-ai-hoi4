@@ -1,0 +1,20 @@
+HOI4txt
+date="1939.9.1.12"
+version="1.19.3"
+save_version=31
+player="GER"
+countries={
+	GER={
+		flags={
+			ares_ai_companion_v1=1939.9.1.12
+		}
+		stability=0.62
+		war_support=0.74
+		manpower=850000
+		political_power=132.5
+		at_war=yes
+		custom={
+			stability=0.01
+		}
+	}
+}
