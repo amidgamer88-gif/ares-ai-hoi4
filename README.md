@@ -43,7 +43,6 @@ Do not commit game files, DLC, personal saves, logs with personal data, or telem
 - Collect opt-in, versioned observations with decision and outcome labels before designing any shared training pipeline.
 - Design a secure public service only after the data format, consent, retention, and deletion process are agreed.
 
-## Licensing status
+## License
 
-The repository is public, but no project license has been selected. Public availability does not grant permission to reuse, modify, or redistribute the code. The application source and HOI4 mod content need separate license decisions. Paradox's User Agreement permits public UGC such as mods for non-commercial purposes and requires it to be free and made from material the creator may use. A non-commercial restriction on the application source would make it source-available rather than OSI Open Source; see [SOURCES.md](SOURCES.md).
-
+The original Companion, Bridge, local community receiver, tests, and project support files are licensed under MIT. Read [the scope note](LICENSE_SCOPE.md) before reusing files; the full license text is in [LICENSES/MIT.txt](LICENSES/MIT.txt). The `mod/` directory is excluded from the MIT grant and has no separate OSI-approved license in this repository. Its distribution remains subject to the applicable Paradox terms for HOI4 user-generated content. The code license does not cover player reports, saves, or future training data.
