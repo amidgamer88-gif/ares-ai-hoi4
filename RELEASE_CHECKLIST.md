@@ -1,6 +1,8 @@
 # GitHub release checklist
 
-This repository is prepared for review but has not been published.
+The initial public repository upload is complete. A public upload is not a software license; licensing and in-game validation remain open release tasks.
+
+- [x] Publish the prototype repository and invite community contributions.
 
 - [ ] Decide whether the app source may be used commercially. If not, describe it as source-available, not OSI Open Source.
 - [ ] Choose separate terms for the original app code and the HOI4 mod/UGC.
