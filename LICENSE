@@ -1,0 +1,3 @@
+This repository contains multiple licensing scopes. The MIT License applies only to the original ARES files listed in [LICENSE_SCOPE.md](LICENSE_SCOPE.md); its full text is in [LICENSES/MIT.txt](LICENSES/MIT.txt).
+
+The `mod/` directory is excluded from that MIT grant. This repository does not grant a separate OSI-approved license for the HOI4 mod.
